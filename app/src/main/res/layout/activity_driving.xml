@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/driving_layout">
+
+    <RelativeLayout
+        android:id="@+id/header_drive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center" >
+
+    <ToggleButton
+        android:textOn="@string/driveButton1"
+        android:textOff="@string/driveButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:id="@+id/driving_start"
+        android:layout_weight="0.00" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/footer_drive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" >
+
+        <ImageView
+            android:src="@drawable/drive"
+            android:contentDescription="pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_weight="0.11" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/photo_drive"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer_drive"
+        android:layout_below="@id/header_drive"
+        android:gravity="center" >
+
+        <fragment
+        android:name="com.example.cameron.fordapp.End_Drive_Fragment"
+        android:id="@+id/ended_driving_view"
+        android:gravity="center"
+        android:layout_height="500px"
+        android:layout_alignParentTop="true"
+        android:layout_width="300px" />
+    </RelativeLayout>
+</LinearLayout>

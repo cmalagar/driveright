@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    tools:background="@android:color/background_dark"
+    android:background="@android:color/background_dark">
+
+        <TextView
+            android:id="@+id/drive_pressed"
+            android:layout_column="1"
+            android:padding="50dip"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="@string/drive_pressed"
+            android:textSize="24sp" />
+
+
+
+        <TextView
+            android:id="@+id/last_ride"
+            android:layout_column="1"
+            android:padding="50dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:textColor="@android:color/holo_blue_bright"
+            android:clickable="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="@string/last_ride"
+            android:textSize="24sp"
+            android:paddingLeft="20dip"
+            android:layout_marginLeft="20px" />
+
+
+    <TextView
+        android:id="@+id/logs"
+        android:layout_column="1"
+        android:padding="50dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="20px"
+        android:text="@string/logs"
+        android:layout_marginBottom="30dp"
+        android:textSize="24sp" />
+
+    <!-- Create a divider -->
+
+
+</LinearLayout>
+

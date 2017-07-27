@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:text="Date: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/log_date"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        tools:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:text="Violation: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_violation"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:layout_below="@+id/log_date"
+        android:layout_alignParentStart="true"
+        tools:ellipsize="end"
+        tools:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:text="Speed: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_speed"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:layout_below="@+id/log_violation"
+        android:layout_alignParentStart="true"
+        tools:ellipsize="end"
+        tools:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_bright" />
+</RelativeLayout>

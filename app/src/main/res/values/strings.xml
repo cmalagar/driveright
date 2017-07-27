@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Drive Right</string>
+    <string name="logs">View All Rides</string>
+    <string name="last_ride">View Last Ride</string>
+    <string name="drive_pressed">Enter Drive Mode</string>
+    <string name="summary">Overall</string>
+    <string name="generalMenu">User Profile</string>
+    <string name="settingsMenu">Remove All</string>
+    <string name="driveButton1">Stop Drive</string>
+    <string name="driveButton2">Start Drive</string>
+    <string name="grade_string"></string>
+    <string name="header">Summary of Drive</string>
+    <string name="footer">Save Log</string>
+    <string-array name="Titles">
+        <item>The Tragedy of Hamlet, Prince of Denmark</item>
+        <item>King Lear</item>
+        <item>Julius Caesar</item>
+    </string-array>
+
+</resources>

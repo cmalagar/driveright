@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="25px"
+    android:layout_height="25px" android:layout_below="@id/photo_drive">
+    <TextView
+        android:text="@string/grade_string"
+        android:id="@+id/gradestring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Get Summary"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gradestring_button" />
+
+</LinearLayout>
